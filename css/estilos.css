@@ -44,7 +44,7 @@ header .menu{
 
 header .menu a{
 	color: #fff;
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 300;
 	display: inline-block;
 	margin: 40px 20px;
@@ -117,7 +117,7 @@ footer .copyright {
 
 @media screen and (max-width: 800px){
 	header{
-	background-size: 1000px 630px ;
+	background-size: 1036px 650px ;
 	}
 
 	header .logo .materia{
@@ -129,7 +129,7 @@ footer .copyright {
 
 @media screen and (max-width: 600px){
 	header{
-	background-size: 916px 575px ;
+	background-size: 956px 600px ;
 	}
 
 	header .logo .materia{
@@ -145,7 +145,7 @@ footer .copyright {
 
 header .menu a{
 	color: #fff;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 200;
 	}
 
@@ -159,7 +159,7 @@ header .menu a{
 @media screen and (max-width: 400px){
 
 	header{
-	background-size: 825px 575px ;
+	background-size: 860px 575px ;
 	}
 
 	header .logo .materia{
@@ -175,7 +175,7 @@ header .menu a{
 
 header .menu a{
 	color: #fff;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 200;
 	}
 
