@@ -120,6 +120,10 @@ footer .copyright {
 	background-size: 1036px 650px ;
 	}
 
+	header .contenedor{
+	height: 650px;
+}
+
 	header .logo .materia{
 	font-size: 38px;
 	font-weight: 400;
@@ -131,6 +135,10 @@ footer .copyright {
 	header{
 	background-size: 956px 600px ;
 	}
+
+	header .contenedor{
+	height: 600px;
+}
 
 	header .logo .materia{
 	font-size: 32px;
@@ -161,6 +169,10 @@ header .menu a{
 	header{
 	background-size: 860px 575px ;
 	}
+
+	header .contenedor{
+	height: 575px;
+}
 
 	header .logo .materia{
 	font-size: 26px;
