@@ -1,7 +1,7 @@
 $(document).ready(function(){
   var ancho = $(window).width();
 
-if(ancho > 300){
+if(ancho > 400){
 
 /* -----------------------------------------------
 /* How to use? : Check the GitHub README

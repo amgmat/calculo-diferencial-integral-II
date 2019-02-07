@@ -81,6 +81,11 @@ header .logo .materia{
 	padding: 10px;
 }
 
+.main .tarea1 iframe{
+	width: 500px; 
+	height: 700px;
+}
+
 .main article{
 	color: #fff;
 	text-align: center;
@@ -117,6 +122,11 @@ footer .copyright {
 	text-align: center;
 	}
 
+	.main .tarea1 iframe{
+	width: 400px; 
+	height: 500px;
+}
+
 }
 
 @media screen and (max-width: 400px){
@@ -125,5 +135,10 @@ footer .copyright {
 	font-weight: 300;
 	text-align: center;
 	}
+
+	.main .tarea1 iframe{
+	width: 340px; 
+	height: 420px;
+}
 
 }
