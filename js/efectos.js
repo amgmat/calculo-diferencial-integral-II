@@ -18,7 +18,7 @@ $(document).ready(function(){
 		$('header .logo').animate({
 			opacity:1,
 			marginTop:'-52px'
-		}, 1750);
+		}, 1800);
 	}
 
 });

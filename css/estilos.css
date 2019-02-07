@@ -115,15 +115,27 @@ footer .copyright {
 	color: #fff;
 }
 
+@media screen and (max-width: 600px){
+	header .logo .materia{
+	font-size: 40px;
+	font-weight: 350;
+	text-align: right;
+	}
+	.main .tarea1 iframe{
+	height: 500px;
+	width: 450px;
+	}
+}
+
 @media screen and (max-width: 400px){
 	header .logo .materia{
-	font-size: 20px;
-	font-weight: 200;
+	font-size: 30px;
+	font-weight: 300;
 	text-align: right;
 	}
 
 	.main .tarea1 iframe{
 	height: 400px;
-	width: 350px;
+	width: 300px;
 	}
 }
