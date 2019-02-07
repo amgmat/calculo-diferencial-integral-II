@@ -9,11 +9,11 @@ $(document).ready(function(){
 		},2000 + (index * 500));
 	})
 
-	if ($(window).width()>50) {
+	//if ($(window).width()>800) {
 		$('header .logo').css({
 			opacity:0,
 			marginTop:0
-		});
+	//	});
 
 		$('header .logo').animate({
 			opacity:1,
