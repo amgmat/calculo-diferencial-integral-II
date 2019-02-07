@@ -9,7 +9,7 @@ $(document).ready(function(){
 		},2000 + (index * 500));
 	})
 
-	if ($(window).width()>200) {
+	if ($(window).width()>50) {
 		$('header .logo').css({
 			opacity:0,
 			marginTop:0
