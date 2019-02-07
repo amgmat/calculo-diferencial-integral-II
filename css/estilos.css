@@ -81,7 +81,13 @@ header .logo .materia{
 	padding: 10px;
 }
 
-.main .tarea1 iframe{
+/*.main .tarea1 iframe{
+	height: 780px;
+	width: 600px;
+	overflow: hidden;
+}*/
+
+.main .tarea1 object{
 	height: 780px;
 	width: 600px;
 }
@@ -121,7 +127,7 @@ footer .copyright {
 	font-weight: 350;
 	text-align: right;
 	}
-	.main .tarea1 iframe{
+	.main .tarea1 object{
 	height: 500px;
 	width: 450px;
 	}
@@ -134,7 +140,7 @@ footer .copyright {
 	text-align: right;
 	}
 
-	.main .tarea1 iframe{
+	.main .tarea1 object{
 	height: 400px;
 	width: 300px;
 	}
