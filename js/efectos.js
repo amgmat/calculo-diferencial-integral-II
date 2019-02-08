@@ -29,4 +29,7 @@ $(document).ready(function(){
 		marginTop:'-100px'
 	},1800);
 
+	$('header .sitios').animate({
+		marginTop: '-100px'
+	},1800);
 });

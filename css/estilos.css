@@ -97,6 +97,28 @@ header .contacto .informacion{
 	font-size: 20px;
 }
 
+header .sitios{
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	top:80%;
+	margin-top: 80px;
+}
+
+header .sitios .enlaces{
+	text-align: center;
+	font-size: 20px;
+}
+
+header .sitios .enlaces li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+header .sitios .enlaces li a:hover{
+	text-decoration: underline;
+}
+
 .main {
 	background:url('../img/dark.png');
 }
@@ -123,23 +145,11 @@ header .contacto .informacion{
 
 .main article ul li{
 	text-align: left;
+	font-size: 20px
 }
 
 .main article h2{
 	font-size: 24px;
-}
-
-.main article p{
-	font-size: 18px;
-}
-
-.main article li a{
-	text-decoration: none;
-	color: #fff;
-}
-
-.main article li a:hover{
-	text-decoration: underline;
 }
 
 footer{
@@ -160,7 +170,7 @@ footer .copyright {
 	}
 
 	header .logo .materia{
-	font-size: 38px;
+	font-size: 36px;
 	font-weight: 400;
 	text-align: center;
 	}
@@ -172,7 +182,7 @@ footer .copyright {
 	}
 
 	header .logo .materia{
-	font-size: 32px;
+	font-size: 28px;
 	font-weight: 350;
 	text-align: center;
 	}
@@ -183,13 +193,21 @@ footer .copyright {
 }
 
 	header .menu a{
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 200;
+	margin: 24px 12px;
 	}
 
 	header .contacto .informacion{
 	font-size: 16px;
 	}
+
+	header .sitios .enlaces{
+	font-size: 16px;
+}
+	.main article ul li{
+	font-size: 16px
+}
 
 	.main .tarea1 iframe{
 	width: 400px; 
@@ -209,24 +227,34 @@ footer .copyright {
 	}
 
 	header .logo .materia{
-	font-size: 26px;
+	font-size: 22px;
 	font-weight: 300;
 	text-align: center;
 	}
 
     header .menu a{
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 200;
-	margin: 20px 10px;
+	margin: 18px 9px;
 	}
 
 	header .contacto .informacion{
 	font-size: 14px;
 	}
 
+	header .sitios .enlaces{
+	font-size: 14px;
+}
+
+	.main article ul li{
+	font-size: 14px
+}
+
 	.main .tarea1 iframe{
 	width: 340px; 
 	height: 420px;
 	}
+
+
 
 }
