@@ -40,14 +40,16 @@ header .contenedor{
 header .menu{
 	width: 100%;
 	text-align: left;
+/*	position: fixed;
+	z-index: 100%;*/
 }
 
 header .menu a{
 	color: #fff;
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: 300;
 	display: inline-block;
-	margin: 40px 20px;
+	margin: 40px 10px;
 	text-decoration: none;
 	position: relative;
 }
@@ -123,15 +125,20 @@ header .sitios .enlaces li a:hover{
 	background:url('../img/dark.png');
 }
 
-.main .tarea1{
+.main .tarea1, .main .adicional{
 	text-align: center;
 	position: relative;
 	padding: 10px;
 }
 
-.main .tarea1 iframe{
+.main .tarea1 iframe, .main .adicional iframe{
 	width: 600px; 
 	height: 745px;
+}
+
+.main .tarea1 h2, .main .adicional h2{
+	color: #fff;
+	font-size: 24px;
 }
 
 .main article{
@@ -143,13 +150,21 @@ header .sitios .enlaces li a:hover{
 	border-radius: 4px;
 }
 
-.main article ul li{
+.main article h2{
+	font-size: 24px;
+}
+
+.main article p, .main article ul li{
 	text-align: left;
 	font-size: 20px
 }
 
-.main article h2{
-	font-size: 24px;
+.main .frase{
+text-align: center;
+}
+
+.main .frase img{
+	width: 400px;
 }
 
 footer{
@@ -195,8 +210,12 @@ footer .copyright {
 	header .menu a{
 	font-size: 18px;
 	font-weight: 200;
-	margin: 24px 12px;
+	margin: 22px 10px;
 	}
+
+	header .mensaje .bienvenida {
+	font-size: 16px;
+}
 
 	header .contacto .informacion{
 	font-size: 16px;
@@ -209,10 +228,18 @@ footer .copyright {
 	font-size: 16px
 }
 
-	.main .tarea1 iframe{
+	.main .frase img{
+	width: 300px;
+	}
+
+	.main .tarea1 h2, .main .adicional h2{
+	font-size: 18px;
+}
+
+	.main .tarea1 iframe, .main .adicional iframe{
 	width: 400px; 
 	height: 500px;
-}
+	}
 
 }
 
@@ -227,7 +254,7 @@ footer .copyright {
 	}
 
 	header .logo .materia{
-	font-size: 22px;
+	font-size: 24px;
 	font-weight: 300;
 	text-align: center;
 	}
@@ -235,8 +262,12 @@ footer .copyright {
     header .menu a{
 	font-size: 16px;
 	font-weight: 200;
-	margin: 18px 9px;
+	margin: 16px 8px;
 	}
+
+	header .mensaje .bienvenida {
+	font-size: 14px;
+}
 
 	header .contacto .informacion{
 	font-size: 14px;
@@ -249,8 +280,16 @@ footer .copyright {
 	.main article ul li{
 	font-size: 14px
 }
+	
+	.main .frase img{
+	width: 280px;
+	}
 
-	.main .tarea1 iframe{
+	.main .tarea1 h2, .main .adicional h2{
+	font-size: 14px;
+}
+
+	.main .tarea1 iframe, .main .adicional iframe{
 	width: 340px; 
 	height: 420px;
 	}

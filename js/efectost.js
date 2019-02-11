@@ -17,13 +17,17 @@ $(document).ready(function(){
 
 		$('header .logo').animate({
 			opacity:1,
-			marginTop:'-190px'
+			marginTop:'-200px'
 		}, 1800);
 	}
 
-	$('.tarea1 iframe').animate({
+	$('.tarea1 h2').animate({
 			marginTop:'-420px'
 		},1800);
+
+/*	$('.tarea1 iframe').animate({
+			marginTop:'-5px'
+		},1800);*/
 	
 
 });

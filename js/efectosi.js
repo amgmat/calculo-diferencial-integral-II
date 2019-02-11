@@ -17,19 +17,17 @@ $(document).ready(function(){
 
 		$('header .logo').animate({
 			opacity:1,
-			marginTop:'-52px'
+			marginTop:'-190px'
 		}, 1800);
 	}
 
 	$('header .mensaje').animate({
-		marginTop:'-100px'
+		marginTop:'-300px'
 	},1800);
 
-	$('header .contacto').animate({
-		marginTop:'-120px'
-	},1800);
+	$('.frase img').animate({
+			marginTop:'-300px'
+		},1800);
+	
 
-	$('header .sitios').animate({
-		marginTop: '-100px'
-	},1800);
 });
