@@ -125,7 +125,7 @@ header .sitios .enlaces li a:hover{
 	background:url('../img/dark.png');
 }
 
-.main .tarea1, .main .adicional{
+.main .tarea1, .main .adicional, .main .apoyo{
 	text-align: center;
 	position: relative;
 	padding: 10px;
