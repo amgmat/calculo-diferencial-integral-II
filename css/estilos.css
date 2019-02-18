@@ -131,12 +131,12 @@ header .sitios .enlaces li a:hover{
 	padding: 10px;
 }
 
-.main .tarea1 iframe, .main .adicional iframe{
+.main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
 	width: 600px; 
 	height: 745px;
 }
 
-.main .tarea1 h2, .main .adicional h2{
+.main .tarea1 h2, .main .adicional h2, .main .apoyo h2{
 	color: #fff;
 	font-size: 24px;
 }
