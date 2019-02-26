@@ -21,7 +21,7 @@ $(document).ready(function(){
 		}, 1800);
 	}
 
-	$('.tarea1 h2').animate({
+	$('.tarea2 h2').animate({
 			marginTop:'-420px'
 		},1800);
 

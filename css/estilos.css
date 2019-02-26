@@ -125,18 +125,18 @@ header .sitios .enlaces li a:hover{
 	background:url('../img/dark.png');
 }
 
-.main .tarea1, .main .adicional, .main .apoyo{
+.main .tarea2 , .main .tarea1, .main .adicional, .main .apoyo{
 	text-align: center;
 	position: relative;
 	padding: 10px;
 }
 
-.main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
+.main .tarea2 iframe, .main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
 	width: 600px; 
 	height: 745px;
 }
 
-.main .tarea1 h2, .main .adicional h2, .main .apoyo h2{
+.main .tarea2 h2, .main .tarea1 h2, .main .adicional h2, .main .apoyo h2{
 	color: #fff;
 	font-size: 24px;
 }
@@ -232,11 +232,11 @@ footer .copyright {
 	width: 300px;
 	}
 
-	.main .tarea1 h2, .main .adicional h2, .main .apoyo h2{
+	.main .tarea2 h2, .main .tarea1 h2, .main .adicional h2, .main .apoyo h2{
 	font-size: 18px;
 }
 
-	.main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
+	.main .tarea2 ifram,e.main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
 	width: 400px; 
 	height: 500px;
 	}
@@ -285,11 +285,11 @@ footer .copyright {
 	width: 280px;
 	}
 
-	.main .tarea1 h2, .main .adicional h2, .main .apoyo h2{
+	.main .tarea2 h2, .main .tarea1 h2, .main .adicional h2, .main .apoyo h2{
 	font-size: 14px;
 }
 
-	.main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
+	.main .tarea2 iframe,. main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
 	width: 340px; 
 	height: 420px;
 	}
