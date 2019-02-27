@@ -125,7 +125,7 @@ header .sitios .enlaces li a:hover{
 	background:url('../img/dark.png');
 }
 
-.main .tarea2 , .main .tarea1, .main .adicional, .main .apoyo{
+.main .tarea2, .main .tarea1, .main .adicional, .main .apoyo{
 	text-align: center;
 	position: relative;
 	padding: 10px;
@@ -292,10 +292,10 @@ footer .copyright {
 	font-size: 14px;
 }
 
-	.main .tarea2 iframe,. main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
-	width: 355px; 
-	height: 450px;
-	}
+	.main .tarea2 iframe,.main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
+	width: 360px; 
+	height: 460px;
+}
 
 .main .tarea2 , .main .tarea1, .main .adicional, .main .apoyo{
 	padding: 6px;
