@@ -44,14 +44,34 @@ header .menu{
 	z-index: 100%;*/
 }
 
-header .menu a{
-	color: #fff;
+header .menu li {
 	font-size: 20px;
 	font-weight: 300;
 	display: inline-block;
 	margin: 40px 10px;
 	text-decoration: none;
 	position: relative;
+}
+
+header .menu li a{
+	color: #fff;
+}
+ 
+header nav li .children {
+	display: none;
+	background: #000;
+	position: absolute;
+	width: 140%;
+	z-index: 1000;
+}
+
+header nav li .children li{
+	display: block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+header nav li:hover .children {
+	display: block;
 }
 
 
@@ -172,6 +192,13 @@ footer{
 	width: 100%;
 }
 
+footer .contenedor{
+	text-align: center;
+	padding: 20px 0;
+	font-size: 20px;
+	color: #fff;
+}
+
 footer .copyright {
 	text-align: center;
 	padding: 20px 0;
@@ -196,6 +223,10 @@ footer .copyright {
 	background-size: 956px 650px ;
 	}
 
+	header nav li .children li{
+	margin:25px 8px;
+	}
+
 	header .logo .materia{
 	font-size: 28px;
 	font-weight: 350;
@@ -208,9 +239,9 @@ footer .copyright {
 }
 
 	header .menu a{
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 200;
-	margin: 22px 10px;
+	margin: 20px 3px;
 	}
 
 	header .mensaje .bienvenida {
@@ -256,6 +287,10 @@ footer .copyright {
 		height: 500px;
 	}
 
+	header nav li .children li{
+	margin:10px 5px;
+	}
+
 	header .logo .materia{
 	font-size: 22px;
 	font-weight: 300;
@@ -263,9 +298,9 @@ footer .copyright {
 	}
 
     header .menu a{
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 200;
-	margin: 16px 8px;
+	margin: 16px 2px;
 	}
 
 	header .mensaje .bienvenida {

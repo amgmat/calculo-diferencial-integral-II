@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Cálculo Diferencia e Integral</title>
 	<link rel="stylesheet" href="css/estilos.css">
+	<script src="js/all.min.js"></script>
 
 </head>
 <body>
@@ -14,11 +15,18 @@
 	<header>
 		<div class="contenedor">
 			<nav class="menu">
-				<a href="index.html" id="inicio">Inicio</a>
-				<a href="guias.html" id="tareas">Guías</a>
-				<a href="contacto.html" id="contacto">Contacto</a>
-				<a href="bibliografia.html" id="bibliografia">Bibliografia</a>
+				<li><a href="index.html" id="inicio">Inicio</a></li>
+				<!-- <li><a href="guias.html" id="tareas">Guías</a></li> -->
+				<li class="submenu"><a href="#">Guías<i class="fas fa-caret-down"></i></a>
+					<ul class="children">
+						<li><a href="guia1.html">Guía 1 <span class="icon-dot"></span></a></li>
+						<li><a href="guia2.html">Guía 2 <span class="icon-dot"></span></a></li>
+					</ul>
+				</li>
+				<li><a href="contacto.html" id="contacto">Contacto</a></li>
+				<li><a href="bibliografia.html" id="bibliografia">Bibliografia</a></li>
 			</nav>
+
 
 				<div class="logo">
 					<h1 class="materia"><span>Cálculo Diferencial e Integral II</span></h1>

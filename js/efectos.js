@@ -1,13 +1,17 @@
 $(document).ready(function(){
 
-	$('.menu a').each(function(index,elemento){
+	$('.menu li').each(function(index,elemento){
 		$(this).css({
 			'top':'-200px'
 		});
 		$(this).animate({
 			top:'0'
 		},2000 + (index * 500));
-	})
+	});
+
+	 $('.submenu').click(function(){
+	 	$(this).children('.children').slideToggle();
+	 });
 
 	if ($(window).width()>350) {
 		$('header .logo').css({

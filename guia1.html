@@ -3,8 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Guías</title>
+	<title>Guía 1</title>
 	<link rel="stylesheet" href="css/estilos.css">
+	<script src="js/all.min.js"></script>
 </head>
 <body>
 
@@ -13,10 +14,16 @@
 	<header>
 		<div class="contenedor">
 			<nav class="menu">
-				<a href="index.html" id="inicio">Inicio</a>
-				<a href="guias.html" id="tareas">Guías</a>
-				<a href="contacto.html" id="contacto">Contacto</a>
-				<a href="bibliografia.html" id="bibliografia">Bibliografia</a>
+				<li><a href="index.html" id="inicio">Inicio</a></li>
+				<!-- <li><a href="guias.html" id="tareas">Guías</a></li> -->
+				<li class="submenu"><a href="#">Guías<i class="fas fa-caret-down"></i></a>
+					<ul class="children">
+						<li><a href="guia1.html">Guía 1 <span class="icon-dot"></span></a></li>
+						<li><a href="guia2.html">Guía 2 <span class="icon-dot"></span></a></li>
+					</ul>
+				</li>
+				<li><a href="contacto.html" id="contacto">Contacto</a></li>
+				<li><a href="bibliografia.html" id="bibliografia">Bibliografia</a></li>
 			</nav>
 
 				<div class="logo">
@@ -27,12 +34,6 @@
 	</header>
 
 	<section class="main">
-
-		<div class="tarea2">
-			<h2>Guía del parcial 2</h2>
-			<br>
-			<iframe src="https://drive.google.com/file/d/1b9XjXKlHIw9AvtH5r-1s4M3m3VS3kxe9/preview"></iframe>
-		</div>
 
 		<div class="tarea1">
 			<h2>Guía del parcial 1</h2>
@@ -66,9 +67,9 @@
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/efectost.js"></script>
-	<!-- <script src="popper.min.js"></script> -->
+	<script src="popper.min.js"></script> 
 	<script src="js/particles.js"></script>
 	<script src="js/particulas.js"></script>
-	<!-- <script src="js/bootstrap.min.js"></script> -->
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
