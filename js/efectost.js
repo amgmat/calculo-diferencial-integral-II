@@ -41,6 +41,10 @@ $(document).ready(function(){
 			opacity:1,
 			marginTop:'-100px'
 		}, 1800);
+
+		$('.tarea3 h2').animate({
+			marginTop:'-320px'
+		},1800);
 	
 		$('.tarea2 h2').animate({
 			marginTop:'-320px'
