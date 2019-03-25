@@ -23,6 +23,10 @@ $(document).ready(function(){
 			opacity:1,
 			marginTop:'-160px'
 		}, 1800);
+
+		$('.tarea3 h2').animate({
+			marginTop:'-420px'
+		},1800);
 	
 		$('.tarea2 h2').animate({
 			marginTop:'-420px'

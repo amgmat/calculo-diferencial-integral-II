@@ -148,18 +148,18 @@ header .sitios .enlaces li a:hover{
 	background:url('../img/dark.png');
 }
 
-.main .tarea2, .main .tarea1, .main .adicional, .main .apoyo{
+.main .tarea3, .main .tarea2, .main .tarea1, .main .adicional, .main .apoyo{
 	text-align: center;
 	position: relative;
 	padding: 10px;
 }
 
-.main .tarea2 iframe, .main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
+.main .tarea3 iframe, .main .tarea2 iframe, .main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
 	width: 600px; 
 	height: 745px;
 }
 
-.main .tarea2 h2, .main .tarea1 h2, .main .adicional h2, .main .apoyo h2{
+.main .tarea3 h2, .main .tarea3 .main .tarea2 h2, .main .tarea1 h2, .main .adicional h2, .main .apoyo h2{
 	color: #fff;
 	font-size: 24px;
 }
@@ -266,16 +266,16 @@ footer .copyright {
 	width: 300px;
 	}
 
-	.main .tarea2 h2, .main .tarea1 h2, .main .adicional h2, .main .apoyo h2{
+	.main .tarea3 h2,.main .tarea2 h2, .main .tarea1 h2, .main .adicional h2, .main .apoyo h2{
 	font-size: 18px;
 }
 
-	.main .tarea2 iframe , .main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
+	.main .tarea3 iframe, .main .tarea2 iframe , .main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
 	width: 380px; 
 	height: 480px;
 	}
 
-	.main .tarea2 , .main .tarea1, .main .adicional, .main .apoyo{
+	.main .tarea3 , .main .tarea3 .main .tarea2 , .main .tarea1, .main .adicional, .main .apoyo{
 	padding: 8px;
 
 }
@@ -330,16 +330,16 @@ footer .copyright {
 	width: 280px;
 	}
 
-	.main .tarea2 h2, .main .tarea1 h2, .main .adicional h2, .main .apoyo h2{
+	.main .tarea3 h2, .main .tarea2 h2, .main .tarea1 h2, .main .adicional h2, .main .apoyo h2{
 	font-size: 14px;
 }
 
-	.main .tarea2 iframe,.main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
+	.main .tarea3 iframe,  .main .tarea2 iframe,.main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
 	width: 345px; 
 	height: 450px;
 }
 
-.main .tarea2 , .main .tarea1, .main .adicional, .main .apoyo{
+.main .tarea3 , .main .tarea2 , .main .tarea1, .main .adicional, .main .apoyo{
 	padding: 6px;
 
 
