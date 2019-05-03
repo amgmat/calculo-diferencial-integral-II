@@ -334,7 +334,7 @@ footer .copyright {
 	font-size: 14px;
 }
 
-	.main tarea4 iframe, .main .tarea3 iframe,  .main .tarea2 iframe,.main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
+	.main .tarea4 iframe, .main .tarea3 iframe,  .main .tarea2 iframe,.main .tarea1 iframe, .main .adicional iframe, .main .apoyo iframe{
 	width: 345px; 
 	height: 450px;
 }
